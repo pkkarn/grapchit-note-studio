@@ -1,6 +1,9 @@
 # GraphNote Studio
 
+![GraphNote Demo](demo_graphnote.gif)
+
 A modern application for managing your notes and graphs with ease.
+
 
 ## Tech Stack
 
@@ -22,7 +25,7 @@ A modern application for managing your notes and graphs with ease.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/pkkarn/graphnote-studio.git
+   git clone https://github.com/pkkarn/grapchit-note-studio.git
    ```
 
 2. Navigate to the project directory:
