@@ -11,7 +11,7 @@ export const Landing = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-background to-accent/10 animate-pulse" />
         <div className="absolute top-20 left-10 w-96 h-96 bg-primary/30 rounded-full blur-3xl animate-float" />
         <div className="absolute bottom-20 right-10 w-80 h-80 bg-accent/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '1s' }} />
-        
+
         {/* Navigation */}
         <nav className="relative z-10 flex items-center justify-between p-6 max-w-7xl mx-auto">
           <div className="flex items-center gap-3">
@@ -39,25 +39,25 @@ export const Landing = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-6 pt-20 pb-32 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-8">
             <Sparkles className="w-4 h-4 text-primary" />
-            <span className="text-sm text-primary font-medium">Visualize your notes and link them</span>
+            <span className="text-sm text-primary font-medium">Note Taking App</span>
           </div>
-          
+
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
-            Visualize your notes
+            Connect Your Notes like
             <span className="block bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-              in graphical format
+              Stars
             </span>
           </h1>
-          
+
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
-            Create, connect, and visualize your notes as an interactive graph. 
+            Create, connect, and visualize your notes as an interactive graph.
             Link ideas with [[wiki-style]] connections and discover new insights.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/auth?mode=signup">
               <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-xl shadow-primary/30 px-8 py-6 text-lg">
-                Start Building Your Graph
+                Connect Your Thoughts
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
             </Link>
